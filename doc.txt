@@ -88,3 +88,4 @@ Save url Frontend
 
 Back to editor in folder application -> config select config.php. Search TODO, enter frontend URL
 
+Redoploy Frontend
