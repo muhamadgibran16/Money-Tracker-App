@@ -1,0 +1,240 @@
+0 verbose cli /usr/local/nvm/versions/node/v18.12.1/bin/node /usr/local/nvm/versions/node/v18.12.1/bin/npm
+1 info using npm@9.6.5
+2 info using node@v18.12.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v18.12.1/lib/node_modules/npm/npmrc Completed in 10ms
+6 timing config:load:builtin Completed in 11ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/c150dkx3895/.cache/typescript/3.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 8ms
+11 timing config:load:file:/home/c150dkx3895/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v18.12.1/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 27ms
+17 timing npm:load:configload Completed in 27ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install @types/body-parser@ts3.8 @types/serve-static@ts3.8 @types/sqlstring@ts3.8 @types/type-is@ts3.8 @types/xtend@ts3.8 @types/busboy@ts3.8 @types/concat-stream@ts3.8 @types/express@ts3.8 @types/merge-descriptors@ts3.8 @types/multer@ts3.8 @types/mysql@ts3.8 @types/on-finished@ts3.8
+21 verbose argv "install" "--ignore-scripts" "@types/body-parser@ts3.8" "@types/serve-static@ts3.8" "@types/sqlstring@ts3.8" "@types/type-is@ts3.8" "@types/xtend@ts3.8" "@types/busboy@ts3.8" "@types/concat-stream@ts3.8" "@types/express@ts3.8" "@types/merge-descriptors@ts3.8" "@types/multer@ts3.8" "@types/mysql@ts3.8" "@types/on-finished@ts3.8" "--save-dev" "--user-agent" "typesInstaller/3.8.3"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 4ms
+24 timing npm:load:display Completed in 5ms
+25 verbose logfile logs-max:10 dir:/home/c150dkx3895/.npm/_logs/2023-05-04T09_27_54_213Z-
+26 verbose logfile /home/c150dkx3895/.npm/_logs/2023-05-04T09_27_54_213Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 47ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 23ms
+34 timing arborist:ctor Completed in 0ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fconcat-stream 197ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fmerge-descriptors 200ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fon-finished 199ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fserve-static 211ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fmulter 209ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fmysql 211ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 214ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fxtend 586ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2ftype-is 1196ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 1218ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fsqlstring 1275ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fbusboy 1808ms (cache miss)
+47 timing idealTree:userRequests Completed in 1826ms
+48 silly idealTree buildDeps
+49 silly fetch manifest @types/concat-stream@2.0.0
+50 silly fetch manifest @types/merge-descriptors@1.0.1
+51 silly fetch manifest @types/on-finished@2.3.1
+52 silly fetch manifest @types/serve-static@1.13.10
+53 silly fetch manifest @types/multer@1.4.7
+54 silly fetch manifest @types/mysql@2.15.21
+55 silly fetch manifest @types/express@4.17.13
+56 silly fetch manifest @types/xtend@4.0.4
+57 silly fetch manifest @types/type-is@1.6.3
+58 silly fetch manifest @types/body-parser@1.19.2
+59 silly fetch manifest @types/sqlstring@2.3.0
+60 silly fetch manifest @types/busboy@1.3.0
+61 silly placeDep ROOT @types/body-parser@1.19.2 OK for:  want: 1.19.2
+62 silly placeDep ROOT @types/busboy@1.3.0 OK for:  want: 1.3.0
+63 silly placeDep ROOT @types/concat-stream@2.0.0 OK for:  want: 2.0.0
+64 silly placeDep ROOT @types/express@4.17.13 OK for:  want: 4.17.13
+65 silly placeDep ROOT @types/merge-descriptors@1.0.1 OK for:  want: 1.0.1
+66 silly placeDep ROOT @types/multer@1.4.7 OK for:  want: 1.4.7
+67 silly placeDep ROOT @types/mysql@2.15.21 OK for:  want: 2.15.21
+68 silly placeDep ROOT @types/on-finished@2.3.1 OK for:  want: 2.3.1
+69 silly placeDep ROOT @types/serve-static@1.13.10 OK for:  want: 1.13.10
+70 silly placeDep ROOT @types/sqlstring@2.3.0 OK for:  want: 2.3.0
+71 silly placeDep ROOT @types/type-is@1.6.3 OK for:  want: 1.6.3
+72 silly placeDep ROOT @types/xtend@4.0.4 OK for:  want: 4.0.4
+73 silly fetch manifest @types/connect@*
+74 silly fetch manifest @types/node@*
+75 silly fetch manifest @types/express-serve-static-core@^4.17.18
+76 silly fetch manifest @types/qs@*
+77 silly fetch manifest @types/mime@^1
+78 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 73ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/@types%2fmime 72ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 77ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress-serve-static-core 82ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 106ms (cache miss)
+83 timing idealTree:#root Completed in 162ms
+84 silly placeDep ROOT @types/connect@3.4.35 OK for: @types/body-parser@1.19.2 want: *
+85 silly placeDep ROOT @types/node@18.16.3 OK for: @types/body-parser@1.19.2 want: *
+86 timing idealTree:node_modules/@types/body-parser Completed in 22ms
+87 timing idealTree:node_modules/@types/busboy Completed in 0ms
+88 timing idealTree:node_modules/@types/concat-stream Completed in 0ms
+89 timing idealTree:node_modules/@types/connect Completed in 0ms
+90 silly placeDep ROOT @types/express-serve-static-core@4.17.34 OK for: @types/express@4.17.13 want: ^4.17.18
+91 silly placeDep ROOT @types/qs@6.9.7 OK for: @types/express@4.17.13 want: *
+92 silly fetch manifest @types/range-parser@*
+93 silly fetch manifest @types/send@*
+94 http fetch GET 200 https://registry.npmjs.org/@types%2frange-parser 34ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/@types%2fsend 1723ms (cache miss)
+96 timing idealTree:node_modules/@types/express Completed in 1729ms
+97 silly placeDep ROOT @types/range-parser@1.2.4 OK for: @types/express-serve-static-core@4.17.34 want: *
+98 silly placeDep ROOT @types/send@0.17.1 OK for: @types/express-serve-static-core@4.17.34 want: *
+99 timing idealTree:node_modules/@types/express-serve-static-core Completed in 7ms
+100 timing idealTree:node_modules/@types/merge-descriptors Completed in 0ms
+101 timing idealTree:node_modules/@types/multer Completed in 0ms
+102 timing idealTree:node_modules/@types/mysql Completed in 0ms
+103 timing idealTree:node_modules/@types/node Completed in 0ms
+104 timing idealTree:node_modules/@types/on-finished Completed in 0ms
+105 timing idealTree:node_modules/@types/qs Completed in 0ms
+106 timing idealTree:node_modules/@types/range-parser Completed in 0ms
+107 silly placeDep ROOT @types/mime@1.3.2 OK for: @types/send@0.17.1 want: ^1
+108 timing idealTree:node_modules/@types/send Completed in 4ms
+109 timing idealTree:node_modules/@types/mime Completed in 0ms
+110 timing idealTree:node_modules/@types/serve-static Completed in 0ms
+111 timing idealTree:node_modules/@types/sqlstring Completed in 0ms
+112 timing idealTree:node_modules/@types/type-is Completed in 0ms
+113 timing idealTree:node_modules/@types/xtend Completed in 0ms
+114 timing idealTree:buildDeps Completed in 1936ms
+115 timing idealTree:fixDepFlags Completed in 1ms
+116 timing idealTree Completed in 3788ms
+117 timing reify:loadTrees Completed in 3789ms
+118 timing reify:diffTrees Completed in 8ms
+119 silly reify moves {}
+120 timing reify:retireShallow Completed in 2ms
+121 timing reify:createSparse Completed in 7ms
+122 timing reify:loadBundles Completed in 0ms
+123 silly audit bulk request {
+123 silly audit   '@types/dateformat': [ '5.0.0' ],
+123 silly audit   'types-registry': [ '0.1.642' ],
+123 silly audit   '@types/body-parser': [ '1.19.2' ],
+123 silly audit   '@types/busboy': [ '1.3.0' ],
+123 silly audit   '@types/concat-stream': [ '2.0.0' ],
+123 silly audit   '@types/express': [ '4.17.13' ],
+123 silly audit   '@types/merge-descriptors': [ '1.0.1' ],
+123 silly audit   '@types/multer': [ '1.4.7' ],
+123 silly audit   '@types/mysql': [ '2.15.21' ],
+123 silly audit   '@types/on-finished': [ '2.3.1' ],
+123 silly audit   '@types/serve-static': [ '1.13.10' ],
+123 silly audit   '@types/sqlstring': [ '2.3.0' ],
+123 silly audit   '@types/type-is': [ '1.6.3' ],
+123 silly audit   '@types/xtend': [ '4.0.4' ],
+123 silly audit   '@types/connect': [ '3.4.35' ],
+123 silly audit   '@types/node': [ '18.16.3' ],
+123 silly audit   '@types/express-serve-static-core': [ '4.17.34' ],
+123 silly audit   '@types/qs': [ '6.9.7' ],
+123 silly audit   '@types/range-parser': [ '1.2.4' ],
+123 silly audit   '@types/send': [ '0.17.1' ],
+123 silly audit   '@types/mime': [ '1.3.2' ]
+123 silly audit }
+124 silly tarball no local data for @types/mime@https://registry.npmjs.org/@types/mime/-/mime-1.3.2.tgz. Extracting by manifest.
+125 silly tarball no local data for @types/send@https://registry.npmjs.org/@types/send/-/send-0.17.1.tgz. Extracting by manifest.
+126 silly tarball no local data for @types/range-parser@https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz. Extracting by manifest.
+127 silly tarball no local data for @types/qs@https://registry.npmjs.org/@types/qs/-/qs-6.9.7.tgz. Extracting by manifest.
+128 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.16.3.tgz. Extracting by manifest.
+129 silly tarball no local data for @types/connect@https://registry.npmjs.org/@types/connect/-/connect-3.4.35.tgz. Extracting by manifest.
+130 silly tarball no local data for @types/xtend@https://registry.npmjs.org/@types/xtend/-/xtend-4.0.4.tgz. Extracting by manifest.
+131 silly tarball no local data for @types/type-is@https://registry.npmjs.org/@types/type-is/-/type-is-1.6.3.tgz. Extracting by manifest.
+132 silly tarball no local data for @types/sqlstring@https://registry.npmjs.org/@types/sqlstring/-/sqlstring-2.3.0.tgz. Extracting by manifest.
+133 silly tarball no local data for @types/serve-static@https://registry.npmjs.org/@types/serve-static/-/serve-static-1.13.10.tgz. Extracting by manifest.
+134 silly tarball no local data for @types/on-finished@https://registry.npmjs.org/@types/on-finished/-/on-finished-2.3.1.tgz. Extracting by manifest.
+135 silly tarball no local data for @types/mysql@https://registry.npmjs.org/@types/mysql/-/mysql-2.15.21.tgz. Extracting by manifest.
+136 silly tarball no local data for @types/multer@https://registry.npmjs.org/@types/multer/-/multer-1.4.7.tgz. Extracting by manifest.
+137 silly tarball no local data for @types/merge-descriptors@https://registry.npmjs.org/@types/merge-descriptors/-/merge-descriptors-1.0.1.tgz. Extracting by manifest.
+138 silly tarball no local data for @types/express@https://registry.npmjs.org/@types/express/-/express-4.17.13.tgz. Extracting by manifest.
+139 silly tarball no local data for @types/concat-stream@https://registry.npmjs.org/@types/concat-stream/-/concat-stream-2.0.0.tgz. Extracting by manifest.
+140 silly tarball no local data for @types/busboy@https://registry.npmjs.org/@types/busboy/-/busboy-1.3.0.tgz. Extracting by manifest.
+141 silly tarball no local data for @types/body-parser@https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.2.tgz. Extracting by manifest.
+142 silly tarball no local data for @types/express-serve-static-core@https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.34.tgz. Extracting by manifest.
+143 http fetch GET 200 https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz 170ms (cache miss)
+144 timing reifyNode:node_modules/@types/range-parser Completed in 249ms
+145 http fetch GET 200 https://registry.npmjs.org/@types/serve-static/-/serve-static-1.13.10.tgz 155ms (cache miss)
+146 timing reifyNode:node_modules/@types/serve-static Completed in 249ms
+147 http fetch GET 200 https://registry.npmjs.org/@types/send/-/send-0.17.1.tgz 174ms (cache miss)
+148 timing reifyNode:node_modules/@types/send Completed in 251ms
+149 http fetch GET 200 https://registry.npmjs.org/@types/sqlstring/-/sqlstring-2.3.0.tgz 159ms (cache miss)
+150 timing reifyNode:node_modules/@types/sqlstring Completed in 251ms
+151 http fetch GET 200 https://registry.npmjs.org/@types/mime/-/mime-1.3.2.tgz 181ms (cache miss)
+152 timing reifyNode:node_modules/@types/mime Completed in 253ms
+153 http fetch GET 200 https://registry.npmjs.org/@types/qs/-/qs-6.9.7.tgz 174ms (cache miss)
+154 timing reifyNode:node_modules/@types/qs Completed in 255ms
+155 http fetch GET 200 https://registry.npmjs.org/@types/connect/-/connect-3.4.35.tgz 170ms (cache miss)
+156 timing reifyNode:node_modules/@types/connect Completed in 254ms
+157 http fetch GET 200 https://registry.npmjs.org/@types/concat-stream/-/concat-stream-2.0.0.tgz 151ms (cache miss)
+158 timing reifyNode:node_modules/@types/concat-stream Completed in 254ms
+159 http fetch GET 200 https://registry.npmjs.org/@types/multer/-/multer-1.4.7.tgz 159ms (cache miss)
+160 timing reifyNode:node_modules/@types/multer Completed in 257ms
+161 http fetch GET 200 https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.2.tgz 152ms (cache miss)
+162 timing reifyNode:node_modules/@types/body-parser Completed in 258ms
+163 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 290ms
+164 timing auditReport:getReport Completed in 296ms
+165 silly audit report {}
+166 timing auditReport:init Completed in 0ms
+167 timing reify:audit Completed in 299ms
+168 http fetch GET 200 https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.34.tgz 173ms (cache miss)
+169 timing reifyNode:node_modules/@types/express-serve-static-core Completed in 299ms
+170 http fetch GET 200 https://registry.npmjs.org/@types/xtend/-/xtend-4.0.4.tgz 284ms (cache miss)
+171 timing reifyNode:node_modules/@types/xtend Completed in 371ms
+172 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.16.3.tgz 321ms (cache miss)
+173 timing reifyNode:node_modules/@types/node Completed in 404ms
+174 http fetch GET 200 https://registry.npmjs.org/@types/merge-descriptors/-/merge-descriptors-1.0.1.tgz 323ms (cache miss)
+175 timing reifyNode:node_modules/@types/merge-descriptors Completed in 423ms
+176 http fetch GET 200 https://registry.npmjs.org/@types/busboy/-/busboy-1.3.0.tgz 326ms (cache miss)
+177 timing reifyNode:node_modules/@types/busboy Completed in 431ms
+178 http fetch GET 200 https://registry.npmjs.org/@types/on-finished/-/on-finished-2.3.1.tgz 875ms (cache miss)
+179 timing reifyNode:node_modules/@types/on-finished Completed in 970ms
+180 http fetch GET 200 https://registry.npmjs.org/@types/type-is/-/type-is-1.6.3.tgz 955ms (cache miss)
+181 timing reifyNode:node_modules/@types/type-is Completed in 1045ms
+182 http fetch GET 200 https://registry.npmjs.org/@types/express/-/express-4.17.13.tgz 942ms (cache miss)
+183 timing reifyNode:node_modules/@types/express Completed in 1044ms
+184 http fetch GET 200 https://registry.npmjs.org/@types/mysql/-/mysql-2.15.21.tgz 1007ms (cache miss)
+185 timing reifyNode:node_modules/@types/mysql Completed in 1104ms
+186 timing reify:unpack Completed in 1107ms
+187 timing reify:unretire Completed in 0ms
+188 timing build:queue Completed in 2ms
+189 timing build:deps Completed in 2ms
+190 timing build Completed in 2ms
+191 timing reify:build Completed in 2ms
+192 timing reify:trash Completed in 0ms
+193 timing reify:save Completed in 18ms
+194 timing reify Completed in 4961ms
+195 silly ADD node_modules/@types/mime
+196 silly ADD node_modules/@types/send
+197 silly ADD node_modules/@types/range-parser
+198 silly ADD node_modules/@types/qs
+199 silly ADD node_modules/@types/express-serve-static-core
+200 silly ADD node_modules/@types/node
+201 silly ADD node_modules/@types/connect
+202 silly ADD node_modules/@types/xtend
+203 silly ADD node_modules/@types/type-is
+204 silly ADD node_modules/@types/sqlstring
+205 silly ADD node_modules/@types/serve-static
+206 silly ADD node_modules/@types/on-finished
+207 silly ADD node_modules/@types/mysql
+208 silly ADD node_modules/@types/multer
+209 silly ADD node_modules/@types/merge-descriptors
+210 silly ADD node_modules/@types/express
+211 silly ADD node_modules/@types/concat-stream
+212 silly ADD node_modules/@types/busboy
+213 silly ADD node_modules/@types/body-parser
+214 timing command:install Completed in 4971ms
+215 verbose exit 0
+216 timing npm Completed in 5257ms
+217 info ok
