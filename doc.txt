@@ -37,7 +37,7 @@ Cloud SQL -> Choose MySQL -> Create Instance
 Backend Configuraton :
 Open Cloud Shell
 Then do the cloning following the link provided
-    git clone -b money-tracker-api https://github.com/dicodingacademy/a133-gcp-labs.git money-tracker-api
+    git clone -b money-tracker-api https://github.com/dicodingacademy/a133-gcp-labs.git backend
 
 Open editor > complete TODO
 
@@ -76,9 +76,9 @@ Save this backend link used later
 Frontend Configuration
 
 Clone repository, following the link provided
-    git clone -b money-tracker-api https://github.com/dicodingacademy/a133-gcp-labs.git money-tracker-api
+    git clone -b money-tracker https://github.com/dicodingacademy/a133-gcp-labs.git frontend
 
-In cloud shell navigate to application folder -> models -> select Records_model.php
+In cloud editor navigate to application folder -> models -> select Records_model.php
 
 Search TODO, enter Backend url
 
@@ -88,4 +88,4 @@ Save url Frontend
 
 Back to editor in folder application -> config select config.php. Search TODO, enter frontend URL
 
-Redoploy Frontend
+Redeploy Frontend
